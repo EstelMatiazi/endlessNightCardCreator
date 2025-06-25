@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Endless Night Vampire Generator</title>
+    <link rel="stylesheet" href="style/layout.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+
+</head>
+<body>
+    <div id="button-container">
+        <button id="generateBtn" class="button">Generate Cards</button>
+        <button id="download-btn" class="button" style="display: none;">Generate Images</button>
+        <input type="file" id="csvFile" accept=".csv" style="display:none;">
+    </div>
+    <div id="output"></div>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
